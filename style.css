@@ -1,0 +1,367 @@
+*/{
+	margin: 0;
+	padding:0;
+	
+}
+/*index*/
+header{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1));
+	background-image: url(main.jpeg);
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: blue;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition-duration: 0.6s ease;
+}
+.p1{
+	position: absolute;
+	top: 150px;
+	left: 50px;
+}
+.p2{
+	position: absolute;
+	top: 240px;
+	left: 40px;
+}
+.p3{
+	position: absolute;
+	top: 330px;
+	left: 30px;
+}
+.p4{
+	position: absolute;
+	top: 420px;
+	left: 20px;
+}
+.p5{
+	position: absolute;
+	top: 510px;
+	left: 10px;
+}
+ul li a:hover{
+	color: pink;
+	font-size: 40px;
+	text-shadow: 0px 0px 20px whitesmoke;
+	border-bottom: 4px solid red;
+	border-radius: 100px;
+}
+ul li .active a{
+	color: pink;
+	font-size: 40px;
+	text-shadow: 0px 0px 20px whitesmoke;
+	border-bottom: 4px solid red;
+	border-radius: 100px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}	
+.title{
+	position: absolute;
+	top: 10%;
+	left: 36%;
+	transform: translate(-50%,-50%);
+}
+.info{
+	position: absolute;
+	top:30%;
+	left: 15%;
+	color: skyblue;
+	font-size: 58px;
+}
+.info span{
+	color: greenyellow;
+	font-size: 115px;
+}
+.info span:hover{
+	font-size: 130px;
+	color: hotpink;
+	transition: 0.5s ease;
+}
+.social{
+	position: absolute;
+	bottom: 5%;
+	left: 2%;
+}
+.socal a{
+	font-size: 33px;
+	color: whitesmoke;
+	padding-right: 7px;
+}
+.socal a:hover{
+	color: hotpink;
+	font-size: 40px;
+	transition: 0.6s ease;
+}
+.info2 a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+.info2 a:hover{
+	color: orange;
+	font-size: 30px;
+	transition: 0.6s ease;
+}/*index end*/
+
+
+/*blog*/
+.blogcontent{
+	display:grid;
+    margin-top:2%;
+	grid-template-columns: 50% 50%;
+	text-align:center;
+	background-color: black;
+	
+}
+
+.blogtxt{
+	text-align:center;
+	color:rgb(243, 245, 247);
+	font-size:20px;
+
+}
+.blog{
+	border:1px solid cyan;
+	}
+
+.blogimg{
+	width:320px;
+	/*height:auto;
+	margin:30px 220px;*/
+
+	/**/
+/**/
+
+}
+.phone{
+	position: absolute;
+	right: 70px;
+	font-size: 25px;
+	top: 10px;
+}
+.email{
+	position: absolute;
+	right: 326px;
+	font-size: 25px;
+	top: 10px;
+}
+.title h1{
+	color: pink;
+	font-size: 75px;
+	border-bottom: 4px solid greenyellow;
+	border-radius: 100px;
+	transition: 0.5s ease;
+}
+.title h1:hover{
+	color: greenyellow;
+	font-size: 80px;
+	text-shadow: 0px 0px 20px indianred;
+	border-bottom: 4px solid blueviolet;
+	border-radius: 100px;
+}
+footer{
+	background: pink;
+	text-align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+/*contact*/
+
+.Contact{
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(back3.jpeg);
+	
+}
+.Contact .content1{
+	max-width: 800px;
+	text-align: center;
+  	color: yellow;
+}
+.Contact .content1 h2{
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+}
+.Contact .content1 p{
+	font-weight: 300;
+	color: #fff;
+}
+.container1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	color: lightblue;
+}
+.container1 .contactInfo1{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.container1 .contactInfo1 .box1{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.container1 .contactInfo1 .box1 .icon1{
+	min-height: 60px;
+	height: 60px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 25px;
+}
+.container1 .contactInfo1 .box1 .icon1 .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;	
+}
+.container1 .contactInfo1 .box1 .icon1 .text h3{
+	font-weight: 500;
+	color: #00bcd4;
+}
+.contactForm1{
+	width: 40%;
+	padding: 40px;
+	background: #fff;
+}
+.contactForm1 h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+.contactForm1 .inputBox1{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.contactForm1 .inputBox1 input,
+.contactForm1 .inputBox1 textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+.contactForm1 .inputBox1 span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+.contactForm1 .inputBox1 input:focus ~ span,
+.contactForm1 .inputBox1 input:valid ~ span,
+.contactForm1 .inputBox1 textarea:focus ~ span,
+.contactForm1 .inputBox1 textarea:valid ~ span{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+.contactForm1 .inputBox1 input[type="submit"]{
+	width: 100px;
+	background: #00bcd4;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+/*contact end*/
+
+
+/*sitereport*/
+.site{
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(back3.jpeg);
+	
+}
+.site .site1{
+	max-width: 800px;
+	text-align: center;
+  	
+}
+.site .site1 h2{
+	font-size: 36px;
+	font-weight: 500;
+	color: purple;
+}
+ .valid{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+}
+/*sitereport*/
+#Portfolio{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+	align-items: center;
+	padding: 20px;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+.gallery img{
+	width: 390px;
+	height: 320px;
+	margin: 10px;
+}
+.firstpage {
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+}
+
+@media screen and (max-width:700px){
+
+.head{
+	font-size: 200px;
+}
+.main{
+	display: block;
+}
+
+	.col1, .col2, .col3{
+		width:100%;
+	}
+}
